@@ -1,0 +1,32 @@
+{
+  "name": "unit-test_mocking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "lint": "eslint src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexeyerpd/unit-test_mocking.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexeyerpd/unit-test_mocking/issues"
+  },
+  "homepage": "https://github.com/alexeyerpd/unit-test_mocking#readme",
+  "dependencies": {
+    "core-js": "^3.26.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "@types/jest": "^29.2.3",
+    "babel-jest": "^29.3.1",
+    "eslint": "^8.28.0",
+    "jest": "^29.3.1"
+  }
+}
